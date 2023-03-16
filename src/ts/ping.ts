@@ -13,7 +13,7 @@ function getEndpoints(): Promise<Endpoint[]> {
     return fetch("hosts.json")
         .then(response => response.json() as Promise<Array<any>>)
         .then(json => json.map(element => {
-            return new Endpoint(element.name, element.host, element.required);
+            return new Endpoint(element.name, new URL(element.host), element.required);
         }));
 }
 
@@ -23,7 +23,7 @@ getEndpoints()
         let html = "";
 
         endpoints.forEach(endpoint => {
-            html += "<tr><td class='p-2 border border-slate-800'>" + endpoint.name + "</td><td class='p-2 border border-slate-800'>" + endpoint.host.hostname + "</td><td id='service_" + endpoint.id + "' class='p-2 border border-slate-800'>Testing...</td></tr>"
+            html += "<tr><td class='p-2 border border-slate-800'>" + endpoint.name + "</td><td class='p-2 border border-slate-800'>" + endpoint.host.host + "</td><td id='service_" + endpoint.id + "' class='p-2 border border-slate-800'>Testing...</td></tr>"
         });
 
         tableBody!.innerHTML = html;
