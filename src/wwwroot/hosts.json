@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Kulpa API",
+        "host": "https://api.kulpa.io",
+        "required": true
+    },
+    {
+        "name": "Command & Control",
+        "host": "https://police.kulpacloud.com",
+        "required": true
+    },
+    {
+        "name": "Web app",
+        "host": "https://app.kulpacloud.com",
+        "required": true
+    },
+    {
+        "name": "Background Worker",
+        "host": "func-injurycapture-prod-001.azurewebsites.net",
+        "required": true
+    },
+    {
+        "name": "Identity Server",
+        "host": "https://injurycapture.b2clogin.com",
+        "required": true
+    },
+    {
+        "name": "Azure Maps",
+        "host": "https://atlas.microsoft.com",
+        "required": false
+    },
+    {
+        "name": "Primary Storage",
+        "host": "https://sticprodbv473og3b3ppm.blob.core.windows.net",
+        "required": true
+    },
+    {
+        "name": "Secondary Storage",
+        "host": "https://sticprodbv473og3b3ppm-secondary.blob.core.windows.net",
+        "required": false
+    },
+    {
+        "name": "Media Server",
+        "host": "https://mediaicuksbv473og3b3ppm-ukso1.streaming.media.azure.net",
+        "required": false
+    },
+    {
+        "name": "Information Requests",
+        "host": "https://sigr-injurycapture-prod-001-bv473og3b3ppm.service.signalr.net",
+        "required": false
+    },
+    {
+        "name": "Support",
+        "host": "https://d3hb14vkzrxvla.cloudfront.net",
+        "required": false
+    }
+]
