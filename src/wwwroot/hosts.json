@@ -25,7 +25,7 @@
         "required": true
     },
     {
-        "name": "Azure Maps",
+        "name": "Maps",
         "host": "https://atlas.microsoft.com",
         "required": false
     },

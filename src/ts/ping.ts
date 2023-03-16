@@ -23,7 +23,7 @@ getEndpoints()
         let html = "";
 
         endpoints.forEach(endpoint => {
-            html += "<tr><td class='p-2 border border-slate-800'>" + endpoint.name + "</td><td class='p-2 border border-slate-800'>" + endpoint.host.toString() + "</td><td id='service_" + endpoint.id + "' class='p-2 border border-slate-800'>Testing...</td></tr>"
+            html += "<tr><td class='p-2 border border-slate-800'>" + endpoint.name + "</td><td class='p-2 border border-slate-800'>" + endpoint.host.hostname + "</td><td id='service_" + endpoint.id + "' class='p-2 border border-slate-800'>Testing...</td></tr>"
         });
 
         tableBody!.innerHTML = html;
