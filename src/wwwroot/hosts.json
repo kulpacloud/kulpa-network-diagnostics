@@ -16,7 +16,7 @@
     },
     {
         "name": "Background Worker",
-        "host": "func-injurycapture-prod-001.azurewebsites.net",
+        "host": "https://func-injurycapture-prod-001.azurewebsites.net",
         "required": true
     },
     {
