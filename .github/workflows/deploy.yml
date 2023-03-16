@@ -28,8 +28,8 @@ jobs:
       - name: Build assets
         run: |
           npm install
-          npx tailwindcss -i ./src/css/tailwind.css -o ./src/wwwroot/main.css
           npx tsc
+          npx tailwindcss -i ./src/css/tailwind.css -o ./src/wwwroot/main.css
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
