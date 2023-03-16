@@ -45,7 +45,7 @@
         "required": false
     },
     {
-        "name": "Information Requests",
+        "name": "Chat",
         "host": "https://sigr-injurycapture-prod-001-bv473og3b3ppm.service.signalr.net",
         "required": false
     },
