@@ -28,7 +28,7 @@ jobs:
       - name: Build assets
         run: |
           npm install
-          npx tailwindcss -i ./src/css/tailwind.css -o ./src/wwwroot
+          npx tailwindcss -i ./src/css/tailwind.css -o ./src/wwwroot/main.css
           npx tsc
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
