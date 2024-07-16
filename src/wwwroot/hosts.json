@@ -41,7 +41,7 @@
     },
     {
         "name": "Media Server",
-        "host": "https://mediaicuksbv473og3b3ppm-ukso1.streaming.media.azure.net",
+        "host": "https://ep-default-saas-mkio-kulpa-prod-001.uksouth.streaming.mediakind.com",
         "required": false
     },
     {
