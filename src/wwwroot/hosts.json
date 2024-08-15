@@ -16,7 +16,7 @@
     },
     {
         "name": "Background Worker",
-        "host": "https://func-injurycapture-prod-001.azurewebsites.net",
+        "host": "https://func-kulpa-worker-001-bazkjsffwd6u2.azurewebsites.net",
         "required": true
     },
     {
