@@ -20,8 +20,8 @@
         "required": true
     },
     {
-        "name": "Identity Server",
-        "host": "https://injurycapture.b2clogin.com",
+        "name": "Identity",
+        "host": "https://identity.kulpacloud.com",
         "required": true
     },
     {
