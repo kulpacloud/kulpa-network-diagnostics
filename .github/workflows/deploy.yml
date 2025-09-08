@@ -31,9 +31,8 @@ jobs:
           npx tsc
           npx tailwindcss -i ./src/css/tailwind.css -o ./src/wwwroot/main.css
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4.0.0
         with:
-          # Upload entire repository
           path: './src/wwwroot'
       - name: Deploy to GitHub Pages
         id: deployment
