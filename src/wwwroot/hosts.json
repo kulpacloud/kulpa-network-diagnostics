@@ -30,14 +30,9 @@
         "required": false
     },
     {
-        "name": "Primary Storage",
+        "name": "Storage",
         "host": "https://sticprodbv473og3b3ppm.blob.core.windows.net",
         "required": true
-    },
-    {
-        "name": "Secondary Storage",
-        "host": "https://sticprodbv473og3b3ppm-secondary.blob.core.windows.net",
-        "required": false
     },
     {
         "name": "Media Server",
