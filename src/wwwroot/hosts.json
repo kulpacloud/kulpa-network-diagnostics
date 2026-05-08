@@ -16,7 +16,7 @@
     },
     {
         "name": "Background Worker",
-        "host": "https://func-kulpa-worker-001-bazkjsffwd6u2.azurewebsites.net",
+        "host": "https://worker.salmonisland-d9b31ce9.uksouth.azurecontainerapps.io",
         "required": true
     },
     {
@@ -40,8 +40,8 @@
         "required": false
     },
     {
-        "name": "Chat",
-        "host": "https://sigr-injurycapture-prod-001-bv473og3b3ppm.service.signalr.net",
+        "name": "Real-time updates",
+        "host": "https://sigr-bv473og3b3ppm.service.signalr.net",
         "required": false
     },
     {
